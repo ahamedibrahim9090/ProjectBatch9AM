@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29180" started-at="2021-04-11T15:58:12Z" finished-at="2021-04-11T15:58:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29180" started-at="2021-04-11T15:58:12Z" finished-at="2021-04-11T15:58:41Z">
+      <class name="org.demoexcel.BlazeDemoSite">
+        <test-method status="PASS" signature="configBrowser()[pri:0, instance:org.demoexcel.BlazeDemoSite@55a561cf]" name="configBrowser" is-config="true" duration-ms="10651" started-at="2021-04-11T15:58:12Z" finished-at="2021-04-11T15:58:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBrowser -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:1, instance:org.demoexcel.BlazeDemoSite@55a561cf]" name="login" duration-ms="4721" started-at="2021-04-11T15:58:23Z" finished-at="2021-04-11T15:58:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://blazedemo.com/index.php]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Philadelphia]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[private void org.demoexcel.BlazeDemoSite.login(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="selectLowestPrice(java.lang.reflect.Method)[pri:2, instance:org.demoexcel.BlazeDemoSite@55a561cf]" name="selectLowestPrice" duration-ms="2604" started-at="2021-04-11T15:58:28Z" finished-at="2021-04-11T15:58:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void org.demoexcel.BlazeDemoSite.selectLowestPrice(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLowestPrice -->
+        <test-method status="PASS" signature="purchase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:3, instance:org.demoexcel.BlazeDemoSite@55a561cf]" name="purchase" duration-ms="6969" started-at="2021-04-11T15:58:30Z" finished-at="2021-04-11T15:58:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ahamed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5/326]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Madurai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TamilNadu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[625020]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[amex]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1234567890123456]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[jan]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ahamed ibrahim]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[private void org.demoexcel.BlazeDemoSite.purchase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchase -->
+        <test-method status="PASS" signature="confirmation(java.lang.reflect.Method)[pri:4, instance:org.demoexcel.BlazeDemoSite@55a561cf]" name="confirmation" duration-ms="533" started-at="2021-04-11T15:58:37Z" finished-at="2021-04-11T15:58:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private void org.demoexcel.BlazeDemoSite.confirmation(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.demoexcel.BlazeDemoSite@55a561cf]" name="closeBrowser" is-config="true" duration-ms="3552" started-at="2021-04-11T15:58:38Z" finished-at="2021-04-11T15:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.demoexcel.BlazeDemoSite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

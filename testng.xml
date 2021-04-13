@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="username" value="ahamedgreens"></parameter>
+  <parameter name="password" value="greens"></parameter>
+  <parameter name = "location" value = "Sydney"></parameter>
+  <parameter name = "hotels" value = "3"></parameter>
+  <parameter name = "room_type" value = "Deluxe"></parameter>
+  <parameter name = "room_nos" value = "3 - Three"></parameter>
+  <parameter name = "adult_room" value =  "2"></parameter>
+  <parameter name = "child_room" value = "2 - Two"></parameter>
+  <parameter name = "first_name" value = "ahamed"></parameter>
+  <parameter name = "last_name" value = "ibrahim"></parameter>
+  <parameter name = "address" value = "thoraipakkam, jain college,chennai"></parameter>
+  <parameter name = "cc_num" value = "1234567890123456"></parameter>
+  <parameter name = "cc_type" value = "MAST"></parameter>
+  <parameter name = "cc_exp_month" value = "October"></parameter>
+  <parameter name = "cc_exp_year" value = "12"></parameter>
+  <parameter name = "cc_cvv" value = "345"></parameter>
+  
+  <classes>
+  <class name = "org.demoexcel.AdactInTestNG"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

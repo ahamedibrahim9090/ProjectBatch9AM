@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="url" value="https://blazedemo.com/index.php"></parameter>
+  <parameter name="fromcity" value = "Philadelphia"></parameter>
+  <parameter name="tocity" value = "New York"></parameter>
+  <parameter name ="firstName" value = "ahamed"></parameter>
+  <parameter name ="adress" value = "5/326"></parameter>
+  <parameter name ="city" value = "Madurai"></parameter>
+  <parameter name="state" value="TamilNadu"></parameter>
+  <parameter name="zipCode" value = "625020"></parameter>
+  <parameter name="cardType" value = "amex"></parameter>
+  <parameter name="CardNumber" value = "1234567890123456"></parameter>
+  <parameter name="month" value = "jan"></parameter>
+  <parameter name="year" value = "2023"></parameter>
+  <parameter name="nameCard" value = "ahamed ibrahim"></parameter>
+  
+    <classes>
+      <class name="org.demoexcel.BlazeDemoSite"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
