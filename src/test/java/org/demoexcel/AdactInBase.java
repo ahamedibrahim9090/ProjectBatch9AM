@@ -20,6 +20,7 @@ public class AdactInBase extends DemoBaseClass {
 		enterValue(adl.getTxtUserName(), "ahamedgreens");
 		enterValue(adl.getTxtPassword(), "greens");
 		clickAction(adl.getBtnLogin());
+		System.out.println("");
 	}
 
 	@Test
